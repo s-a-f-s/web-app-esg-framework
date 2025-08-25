@@ -1,0 +1,95 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+*.tar.gz
+
+# testing
+/coverage
+
+# production builds
+/build
+/dist
+
+# Vite
+/.vite
+vite.config.ts.timestamp-*
+vite.config.js.timestamp-*
+vite.config.mjs.timestamp-*
+
+# caches
+.cache
+.parcel-cache
+.turbo
+/.turbo
+/.next
+/.remix
+/.vercel
+
+# storybook
+out/
+storybook-static/
+
+# serverless
+.serverless/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+bun-debug.log*
+
+# misc system files
+.DS_Store
+Thumbs.db
+
+# environment variables (keep local secrets out of git)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDEs and editors
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# TypeScript
+*.tsbuildinfo
+
+# eslint / stylelint caches
+.eslintcache
+.stylelintcache
+
+# yarn v2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# bun
+.bun
+
+# lockfiles (if you only want 1 package manager, ignore others)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+bun.lockb
+
+# generated JSON files (not source-controlled)
+/*.json
+!package.json
+!tsconfig.json
+!tsconfig.*.json
+!*.config.json
