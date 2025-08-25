@@ -1,3 +1,6 @@
+![ESG Framework Logo](assets/esg.png)
+
+
 # ESG Framework
 
 ### Overview
@@ -150,4 +153,10 @@ npm install
 npm run dev
 
 ```
+
+### Accessing the App
+
+Once deployed, you can access the web app locally via:
+
+http://localhost:5000
 
